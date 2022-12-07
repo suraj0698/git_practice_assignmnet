@@ -1,10 +1,8 @@
 // Program to find prime number
 
 let factor=0;
-    bag=0;
     for(i=0; i<=num; i++){
-        if(num % i==1){
-         bag = bag +i;
+        if(num % i==0){
             factor++
         }
     } 
@@ -14,5 +12,5 @@ let factor=0;
     } 
     else 
     {
-        console.log("No")
+        console.log("No");
     }
